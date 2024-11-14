@@ -1,0 +1,33 @@
+# Archivos de entorno
+.env
+
+# Archivos binarios generados por Go
+/bin/
+/out/
+/dist/
+/*.exe
+/*.exe~
+*.dll
+*.so
+*.dylib
+
+# Archivos de compilación y caché de Go
+*.o
+*.a
+*.test
+/vendor/
+/coverage.out
+
+# Archivos y carpetas específicos del editor (Ej: VSCode)
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Módulos y caché de Go
+/go/pkg
+/go/bin
+
+# Archivos de logs y depuración
+*.log
